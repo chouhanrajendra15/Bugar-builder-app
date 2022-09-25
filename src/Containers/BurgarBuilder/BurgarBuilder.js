@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import BuildControls from '../../Components/Burgar/BuildControls/BuildControls';
 import Burgar from '../../Components/Burgar/Burgar'
 
 import AAux from '../../hoc/AAux'
@@ -25,7 +26,7 @@ class BurgarBuilder extends Component {
     return (
      <AAux> 
        <Burgar ingredients = { this.state.ingredients}  />
-     <div>Burgar Controls </div> 
+     <BuildControls />
       </AAux>
     );
   }
