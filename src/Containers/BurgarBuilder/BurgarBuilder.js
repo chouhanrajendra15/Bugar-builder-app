@@ -83,6 +83,7 @@ this.setState({totalPrice: newPrice, ingredients: updatedIngredients});
       ingredientAdded = { this.addIngredientHandler}
       ingredientRemoved = { this.removeIngredientHandler}
       disabled = {disabledInfo}
+      price = { this.state.totalPrice }
        />
       </AAux>
     );
