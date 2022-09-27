@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import BuildControls from '../../Components/Burgar/BuildControls/BuildControls';
 import Burgar from '../../Components/Burgar/Burgar'
 
+import Modal from '../../Components/UI/Modal/Modal';
 import AAux from '../../hoc/AAux'
+import OrderSummary from '../../Components/Burgar/OrderSummary/OrderSummary';
 
 
 const INGREDIENT_PRICES = {
@@ -84,6 +86,9 @@ this.setState({totalPrice: newPrice, ingredients: updatedIngredients});
 // {salad: true, meat: false, ...}
     return (
      <AAux> 
+      <Modal>
+        <OrderSummary ingredients = {this.state.ingredients}/>
+        </Modal> 
        <Burgar ingredients = { this.state.ingredients}  />
      <BuildControls 
       ingredientAdded = { this.addIngredientHandler}
@@ -91,7 +96,7 @@ this.setState({totalPrice: newPrice, ingredients: updatedIngredients});
       disabled = {disabledInfo}
       purchasable = { this.state.purchasable}
       price = { this.state.totalPrice }
-       />
+       />  
       </AAux>
     );
   }
