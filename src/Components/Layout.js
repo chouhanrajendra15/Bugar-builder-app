@@ -3,10 +3,12 @@ import AAux from '../hoc/AAux';
 
 import classes from './Layout.module.css';
 
+import Toolbar from './Navigation/Toolbar/Toolbar';
+
 
 const Layout = (props) =>(
     <AAux>
-<div>Toolbar, SideDrawer, Backdrop</div>
+<Toolbar />
 
 <main className={classes.Content}>
     {props.children}
