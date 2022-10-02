@@ -3,7 +3,7 @@ import BuildControls from '../../Components/Burgar/BuildControls/BuildControls';
 import Burgar from '../../Components/Burgar/Burgar'
 
 import Modal from '../../Components/UI/Modal/Modal';
-import AAux from '../../hoc/AAux'
+import AAux from '../../hoc/AAux/AAux';
 import OrderSummary from '../../Components/Burgar/OrderSummary/OrderSummary';
 
 

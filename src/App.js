@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Layout from './Components/Layout.js';
+// import Layout from '/Containers/Layout/Layout';
+import Layout from './hoc/Layout/Layout.js';
 import BurgarBuilder from './Containers/BurgarBuilder/BurgarBuilder.js';
 
 

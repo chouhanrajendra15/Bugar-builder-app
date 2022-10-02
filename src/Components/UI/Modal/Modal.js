@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
-import AAux from  '../../../hoc/AAux';
+// import AAux from  '../../../hoc/AAux/AAux';
+import AAux from "../../../hoc/AAux/AAux";
 
 import Backdrop from "../Backdrop/Backdrop";
 

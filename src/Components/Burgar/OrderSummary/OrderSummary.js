@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AAux from '../../../hoc/AAux';
+import AAux from '../../../hoc/AAux/AAux';
 import Button from '../../UI/Button/Button';
 
 
@@ -7,6 +7,8 @@ import Button from '../../UI/Button/Button';
 // import AAux from '../../hoc/AAux';
 
 class OrderSummary extends Component {
+    // This could be a functional component, doesn't have to be a class
+    // It is only for debugging purpose.
     componentDidUpdate(){
         console.log('[OrderSummary] WillUpdate');
     }
