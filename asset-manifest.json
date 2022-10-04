@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Bugar-builder-app/static/css/main.765973ca.css",
+    "main.js": "/Bugar-builder-app/static/js/main.e9bedd2d.js",
+    "static/js/787.12e1a17e.chunk.js": "/Bugar-builder-app/static/js/787.12e1a17e.chunk.js",
+    "static/media/133 burger-logo.png": "/Bugar-builder-app/static/media/133 burger-logo.ec69c7f65e6d7565759f.png",
+    "index.html": "/Bugar-builder-app/index.html",
+    "main.765973ca.css.map": "/Bugar-builder-app/static/css/main.765973ca.css.map",
+    "main.e9bedd2d.js.map": "/Bugar-builder-app/static/js/main.e9bedd2d.js.map",
+    "787.12e1a17e.chunk.js.map": "/Bugar-builder-app/static/js/787.12e1a17e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.765973ca.css",
+    "static/js/main.e9bedd2d.js"
+  ]
+}
