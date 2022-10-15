@@ -3,26 +3,20 @@ import React, { Component } from 'react'
 import Layout from './hoc/Layout/Layout.js';
 import BurgarBuilder from './Containers/BurgarBuilder/BurgarBuilder.js';
 import Checkout from './Containers/Checkout/Checkout.js';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export default class App extends Component {
-//   state = {
-//      show: true
-//   };
-
-//  componentDidMount () {
-//   setTimeout(()=> {
-//     this.setState({show: false});
-//   },5000);
-//  }
-
   render() {
     return (
-      <div>
+      <div> <Router>
         <Layout>
-     < BurgarBuilder/> 
-     <Checkout />
-        </Layout>
+         
+          <Routes>
+     <Route exact path="/"  element={<BurgarBuilder />}/>
+     <Route exact path="/checkout" element={<Checkout />}/>
+     </Routes>
+     
+       </Layout> </Router>
       </div>
     );
   }
